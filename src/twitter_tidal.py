@@ -4,12 +4,11 @@ import json
 import tweepy
 from tweepy import OAuthHandler
 
-# remove these if uploading *
 
-consumer_key = 'fAbbKl3kk8WStBiKPoVmxXQiU'
-consumer_secret = 'J39i427SLo4MW2TJ5eS1vc05YSYUlv2CP5ESysxo5Wiy0iAiyX'
-access_token = '1015005685761937408-KlMqmH6dhZS7nlkVJKnzvhC2Gvq5cY'
-access_secret = '9qNv04hnF0b5zAlG5onxelCCZ5vQLzu4QRQGOlevhVt2r'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = ''
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
