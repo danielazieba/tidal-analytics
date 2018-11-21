@@ -2,7 +2,7 @@ import requests
 import time
 from bs4 import BeautifulSoup
 
-user = 'ohjeez' # username on hackernews
+user = '' # username on hackernews
 user_data = [] # stores user data
 #user_data = [username, date created, karma, description]
 
